@@ -84,7 +84,7 @@ namespace galileo
 
   void PlottingScene::mp_BackButton()
   {
-    const std::string c_szNextSceneName = "Initial scene";
+    const std::string c_szNextSceneName = "Config scene";
     emit SceneChange(c_szNextSceneName);
   }
 
